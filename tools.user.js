@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         JaNö-Browsertools
-// @namespace    https://jannoe-media.de
-// @version      0.1
+// @namespace    https://janoe-media.de
+// @version      0.2
 // @description  Ein Script, dass diverse Tools im Browser ergänzt
 // @author       Jannik Nölke
-// @match        *
+// @match        https://*
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/jannik0402/browserscripts/main/userscript.js
-// @updateURL    https://raw.githubusercontent.com/jannik0402/browserscripts/main/userscript.js
+// @downloadURL  https://raw.githubusercontent.com/jannik0402/browserscripts/main/tools.user.js
+// @updateURL    https://raw.githubusercontent.com/jannik0402/browserscripts/main/tools.user.js
 // ==/UserScript==
 
 var adSenseBlocks = document.querySelectorAll('ins[data-ad-slot^="ca-"]');
