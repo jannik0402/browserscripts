@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JaNö-Browsertools
 // @namespace    https://janoe-media.de
-// @version      0.2
+// @version      0.3
 // @description  Ein Script, dass diverse Tools im Browser ergänzt
 // @author       Jannik Nölke
 // @match        https://*
@@ -18,6 +18,13 @@ adSenseBlocks.forEach(function(adBlock) {
 });
 
 adSenseBlocks = document.querySelectorAll('.google-auto-placed');
+
+// Entferne jeden gefundenen Anzeigenblock
+adSenseBlocks.forEach(function(adBlock) {
+    adBlock.remove();
+});
+
+adSenseBlocks = document.querySelectorAll('.adsbygoogle');
 
 // Entferne jeden gefundenen Anzeigenblock
 adSenseBlocks.forEach(function(adBlock) {
