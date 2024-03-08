@@ -6,8 +6,8 @@
 // @author       Jannik Nölke
 // @match        *
 // @grant        none
-// @downloadURL  
-// @updateURL
+// @downloadURL  https://raw.githubusercontent.com/jannik0402/browserscripts/main/userscript.js
+// @updateURL    https://raw.githubusercontent.com/jannik0402/browserscripts/main/userscript.js
 // ==/UserScript==
 
 var adSenseBlocks = document.querySelectorAll('ins[data-ad-slot^="ca-"]');
