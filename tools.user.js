@@ -4,7 +4,7 @@
 // @version      0.3
 // @description  Ein Script, dass diverse Tools im Browser ergänzt
 // @author       Jannik Nölke
-// @match        https://*
+// @match        *://*/*
 // @grant        none
 // @downloadURL  https://raw.githubusercontent.com/jannik0402/browserscripts/main/tools.user.js
 // @updateURL    https://raw.githubusercontent.com/jannik0402/browserscripts/main/tools.user.js
